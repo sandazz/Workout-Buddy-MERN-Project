@@ -6,21 +6,21 @@ const createToken = (_id) => {
     return jwt.sign({_id},process.env.JWTSECRET, { expiresIn: '3d' })
 }
 
-// Login a user controller
+// login a user
 const loginUser = async (req, res) => {
-    const { email, password } = req.body
-
+    const {email, password} = req.body
+  
     try {
-        const user = await User.login(email, password)
-
-        // Create the token
-        const token = createToken(user._id)
-
-        res.status(200).json({ email, token})
+      const user = await User.login(email, password)
+  
+      // create a token
+      const token = createToken(user._id)
+  
+      res.status(200).json({email, token})
     } catch (error) {
-        res.status(400).json({ error: error.message })
+      res.status(400).json({error: error.message})
     }
-}   
+  }
 
 // Signup a user controller
 const signupUser = async (req, res) => {
