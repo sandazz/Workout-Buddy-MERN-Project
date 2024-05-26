@@ -98,18 +98,18 @@ cd Workout-Buddy-MERN-Project
 
 ## User Interfaces
 1. Log in
-<img src="screenShots/login.png" alt="Splash Screen" width="200">
+<img src="ScreenShots/login.jpg" alt="login.jpg" >
 2. Sign up
-<img src="screenShots/signup.png" alt="Splash Screen" width="200">
+<img src="ScreenShots/signup.jpg" alt="signup.jpg" >
 3. Home page
-<img src="screenShots/homepage.png" alt="Splash Screen" width="200">
+<img src="ScreenShots/homepage.jpg" alt="homepage.jpg" >
 4. Navbar
-<img src="screenShots/navbar.png" alt="Splash Screen" width="200">
+<img src="ScreenShots/navbar.jpg" alt="navbar.jpg" >
 5. Workouts View
-<img src="screenShots/workout_view.png" alt="Splash Screen" width="200">
+<img src="ScreenShots/workout_view.jpg" alt="workout_view.jpg" >
 6. Workout
-<img src="screenShots/workout.png" alt="Splash Screen" width="200">
+<img src="ScreenShots/workout.jpg" alt="workout.jpg" >
 7. Add workout
-<img src="screenShots/addWorkout.png" alt="Splash Screen" width="200">
+<img src="ScreenShots/addWorkout.jpg" alt="addWorkout.jpg" >
 
 Thank you for using Workout Buddy! Net Ninja!
